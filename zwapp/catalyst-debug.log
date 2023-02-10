@@ -1,0 +1,1550 @@
+[debug] [2023-02-10T04:27:08.840Z] : 
+[debug] [2023-02-10T04:27:08.841Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T04:27:08.841Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T04:27:08.842Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T04:27:08.842Z] : Platform:     win32
+[debug] [2023-02-10T04:27:08.842Z] : Node Version: v18.12.0
+[debug] [2023-02-10T04:27:08.843Z] : Time:         Fri Feb 10 2023 09:57:08 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T04:27:08.844Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T04:27:08.844Z] : 
+[debug] [2023-02-10T04:27:09.533Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T04:27:09.534Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T04:27:09.547Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T04:27:14.523Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 04:27:13 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=48a4e6be-93fe-4746-b517-952faafecee1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=48a4e6be-93fe-4746-b517-952faafecee1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T04:27:14.526Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T04:27:24.245Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 04:27:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=04701af8-93e9-48c5-b734-8ab822847727;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=04701af8-93e9-48c5-b734-8ab822847727;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T04:27:24.392Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-10T04:27:25.503Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T04:27:55.477Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T04:27:55.483Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T04:28:00.036Z] : No basic functions to add
+[info] [2023-02-10T04:28:04.652Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:28:04.653Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:28:04.653Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:28:04.654Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:28:54.729Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:28:55.390Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:28:55.390Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:28:55.391Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:28:55.391Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:28:58.718Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:28:59.025Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:28:59.025Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:28:59.025Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:28:59.026Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:29:43.062Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:29:43.423Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:29:43.424Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:29:43.424Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:29:43.425Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:16.365Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:16.684Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:16.685Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:10:  'Home' is defined but never used         no-unused-vars
+  Line 3:10:  'ReturnLogin' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:16.686Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:16.686Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:18.654Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:18.991Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:18.992Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:10:  'Home' is defined but never used         no-unused-vars
+  Line 3:10:  'ReturnLogin' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:18.992Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:18.993Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:19.057Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:19.267Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:19.267Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:10:  'Home' is defined but never used         no-unused-vars
+  Line 3:10:  'ReturnLogin' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:19.268Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:19.269Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:36.887Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:37.270Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:37.271Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:37.271Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:37.272Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:43.500Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:43.727Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:30:43.728Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\App.js: Unexpected token (14:6)
+  12 |       </Routes>
+  13 | <Ro
+> 14 |       <Route exact path="/app/home" element={<Home />}></Route>
+     |       ^
+  15 |         <Route exact path="/app/returnlogin" element={<ReturnLogin />}></Route>
+  16 |       </Router>
+  17 |     </div>
+[info] [2023-02-10T04:30:43.784Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:43.904Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:30:43.905Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\App.js: Unexpected token (14:6)
+  12 |       </Routes>
+  13 | <Ro
+> 14 |       <Route exact path="/app/home" element={<Home />}></Route>
+     |       ^
+  15 |         <Route exact path="/app/returnlogin" element={<ReturnLogin />}></Route>
+  16 |       </Router>
+  17 |     </div>
+[info] [2023-02-10T04:30:45.765Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:46.136Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:46.137Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:46.137Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:46.137Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:48.588Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:48.938Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:48.938Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:10:  'Home' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:48.939Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:48.939Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:48.977Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:49.129Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:49.129Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 2:10:  'Home' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:49.130Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:49.130Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:51.810Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:52.072Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:52.073Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:52.073Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:52.074Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:53.043Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:53.303Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:53.303Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:53.304Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:53.304Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:55.777Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:56.009Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:56.009Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:56.009Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:56.010Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:30:57.355Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:30:57.613Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:30:57.613Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:30:57.613Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:30:57.614Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:02.063Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:02.173Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:31:02.174Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\App.js: Expected corresponding JSX closing tag for <Routes>. (18:6)
+  16 | <Routes>
+  17 |         <Route exact path="/app/returnlogin" element={<ReturnLogin />}></Route>
+> 18 |       </Router>
+     |       ^
+  19 |     </div>
+  20 |   );
+  21 | }
+[info] [2023-02-10T04:31:02.206Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:02.269Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:31:02.269Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\App.js: Expected corresponding JSX closing tag for <Routes>. (18:6)
+  16 | <Routes>
+  17 |         <Route exact path="/app/returnlogin" element={<ReturnLogin />}></Route>
+> 18 |       </Router>
+     |       ^
+  19 |     </div>
+  20 |   );
+  21 | }
+[info] [2023-02-10T04:31:05.087Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:05.377Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:05.378Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:05.378Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:05.379Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:07.697Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:07.967Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:07.968Z] : [react-plugin]: [eslint] 
+src\App.js
+  Line 3:10:  'ReturnLogin' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:07.968Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:07.969Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:09.633Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:09.881Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:09.882Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:09.882Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:09.883Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:09.912Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:10.078Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:10.078Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:10.078Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:10.079Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:11.045Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:11.294Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:11.295Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:11.295Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:11.295Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:11.324Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:11.442Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:11.442Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:11.442Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:11.443Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:48.783Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:50.287Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:50.287Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:50.287Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:50.288Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:31:50.356Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:31:50.529Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:31:50.530Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:31:50.530Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:31:50.531Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:33:02.062Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:02.300Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:02.303Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: JSX attributes must only be assigned a non-empty expression. (51:24)
+  49 |         />
+  50 |         <Button onClick={signUp} variant="text">Register</Button>
+> 51 |         <Button onClick={} variant="text">Login</Button>
+     |                         ^
+  52 |
+  53 |
+  54 |
+[info] [2023-02-10T04:33:09.147Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:09.276Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:09.277Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "(" (35:2)
+  33 |   function returnLogin
+  34 |
+> 35 |   return (
+     |   ^
+  36 |     <Box width={'30%'}>
+  37 |       <Stack>
+  38 |         <TextField
+[info] [2023-02-10T04:33:12.229Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:12.384Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:12.385Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "{" (35:2)
+  33 |   function returnLoginrouter()
+  34 |
+> 35 |   return (
+     |   ^
+  36 |     <Box width={'30%'}>
+  37 |       <Stack>
+  38 |         <TextField
+[info] [2023-02-10T04:33:18.009Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:18.137Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:18.138Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: JSX attributes must only be assigned a non-empty expression. (55:24)
+  53 |         />
+  54 |         <Button onClick={signUp} variant="text">Register</Button>
+> 55 |         <Button onClick={} variant="text">Login</Button>
+     |                         ^
+  56 |
+  57 |
+  58 |
+[info] [2023-02-10T04:33:27.641Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:27.760Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:27.761Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: JSX attributes must only be assigned a non-empty expression. (55:24)
+  53 |         />
+  54 |         <Button onClick={signUp} variant="text">Register</Button>
+> 55 |         <Button onClick={} variant="text">Login</Button>
+     |                         ^
+  56 |
+  57 |
+  58 |
+[info] [2023-02-10T04:33:31.116Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:31.939Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:33:31.939Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:26:  'retu' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:33:32.247Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:33:32.542Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:33:32.543Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:33:32.543Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:33:32.544Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:08.751Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:09.153Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:09.153Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:09.153Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:09.154Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:09.236Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:09.501Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:09.501Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:09.501Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:09.502Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:15.153Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:15.768Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:15.768Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:15.768Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:15.769Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:16.640Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:16.866Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:16.866Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:16.866Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:16.867Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:25.216Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:25.516Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:25.518Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:25.518Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:25.519Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:46.737Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:46.904Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:34:46.905Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "," (38:9)
+  36 |
+  37 |   return (app
+> 38 |     <Box width={'30%'}>
+     |          ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T04:34:48.960Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:49.256Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:49.257Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:49.257Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:49.257Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:34:52.267Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:34:52.516Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:34:52.517Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:34:52.517Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:34:52.517Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:35:02.122Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:35:02.389Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:35:02.390Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:35:02.390Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:35:02.391Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:35:04.321Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:35:04.546Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:35:04.547Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:35:04.547Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:35:04.548Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:35:28.312Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:35:28.627Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:35:28.627Z] : [react-plugin]: [eslint] 
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:35:28.628Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:35:28.628Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:35:58.443Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:35:58.802Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:35:58.803Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:35:58.804Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:35:58.804Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:36:01.501Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:01.750Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:36:01.750Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:36:01.751Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:36:01.751Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:36:02.825Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:03.062Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:03.063Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:10:  'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:36:04.848Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:05.178Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:05.178Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:10:  'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:36:06.323Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:06.603Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:06.604Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:10:  'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:36:09.130Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:09.266Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:09.267Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token (55:18)
+  53 |         />
+  54 |         <Button onClick={signUp} variant="text">Register</Button>
+> 55 |         <Link path=></Link>
+     |                   ^
+  56 |
+  57 |
+  58 |
+[info] [2023-02-10T04:36:11.540Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:11.845Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:11.846Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:10:  'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:36:13.358Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:13.641Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:36:13.642Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 55:10:  'Link' is not defined  react/jsx-no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T04:36:15.775Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:36:16.006Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:36:16.006Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:36:16.007Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:36:16.008Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:44:26.910Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:44:27.367Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:44:27.368Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+
+src\components\ReturnLogin.jsx
+  Line 4:12:  'email' is assigned a value but never used     no-unused-vars
+  Line 4:19:  'setEmail' is assigned a value but never used  no-unused-vars
+  Line 5:11:  'navigate' is assigned a value but never used  no-unused-vars
+[info] [2023-02-10T04:44:27.368Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:44:27.368Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:44:32.501Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T04:44:32.501Z] : [react-plugin]: Module not found: Error: Can't resolve './components/ReturnLogin' in 'D:\zw\zwapp\react-app\src'
+[info] [2023-02-10T04:44:42.799Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:44:43.118Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:44:43.118Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:44:43.119Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:44:43.120Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:44:46.645Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:44:46.916Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:44:46.917Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:44:46.917Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:44:46.917Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:44:46.947Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:44:47.089Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:44:47.090Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:44:47.090Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:44:47.090Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:31.401Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:33.435Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:33.436Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:33.436Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:33.436Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:33.495Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:33.650Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:33.650Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:33.651Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:33.651Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:33.996Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:34.217Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:34.218Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:34.218Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:34.218Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:34.241Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:34.394Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:34.394Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:34.395Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:34.395Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:35.837Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:36.070Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:36.070Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:36.070Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:36.070Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:36.119Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:36.258Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:36.259Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:36.259Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:36.259Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:43.880Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:44.151Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:44.151Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:44.151Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:44.152Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:45:44.178Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:45:44.323Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:45:44.323Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:45:44.323Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:45:44.323Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:11.208Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:11.614Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:11.615Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:11.615Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:11.615Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:14.527Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:14.788Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:14.789Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:14.789Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:14.789Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:14.831Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:14.962Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:14.963Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:14.963Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:14.963Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:19.046Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:19.272Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:19.273Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:19.273Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:19.273Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:19.298Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:19.469Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:19.470Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:19.471Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:19.472Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:24.381Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:24.670Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:24.670Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:24.671Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:24.671Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:47:41.294Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:47:41.615Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:47:41.615Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:47:41.616Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:47:41.616Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:48:21.298Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:48:21.773Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:48:21.773Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:48:21.773Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:48:21.774Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:48:21.872Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:48:22.033Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:48:22.034Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:48:22.034Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:48:22.034Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:49:00.498Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:49:00.785Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:49:00.785Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:49:00.786Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:49:00.786Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T04:49:23.636Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T04:49:23.925Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T04:49:23.926Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T04:49:23.926Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T04:49:23.926Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T05:01:49.600Z] : Shutting down server
+[info] [2023-02-10T05:01:49.611Z] : 
+[info] [2023-02-10T05:01:49.612Z] : √ Shutdown complete
+[debug] [2023-02-10T05:01:49.613Z] : NO ERRORS REGISTERED
+[debug] [2023-02-10T05:01:49.614Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-10T05:01:49.614Z] : TOTAL DURATION OF COMMAND EXEC : 2080097
+[debug] [2023-02-10T05:01:49.629Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-10T05:01:53.387Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:01:52 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=21f705f3-5e9b-48cd-8ed3-aaaa4d49f45a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=21f705f3-5e9b-48cd-8ed3-aaaa4d49f45a;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=99D04571F543E9CE3D750F7BAF93FC9F; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-10T05:01:53.392Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-10T05:01:53.397Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-10T05:02:04.834Z] : 
+[debug] [2023-02-10T05:02:04.835Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:02:04.835Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js client:setup
+[debug] [2023-02-10T05:02:04.835Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T05:02:04.836Z] : Platform:     win32
+[debug] [2023-02-10T05:02:04.836Z] : Node Version: v18.12.0
+[debug] [2023-02-10T05:02:04.837Z] : Time:         Fri Feb 10 2023 10:32:04 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T05:02:04.837Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:02:04.838Z] : 
+[debug] [2023-02-10T05:02:05.739Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T05:02:05.740Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T05:02:05.751Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T05:02:07.150Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:02:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=212c941e-0966-483e-89b3-3e12db53a144;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=212c941e-0966-483e-89b3-3e12db53a144;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:02:07.153Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T05:02:08.720Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:02:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=2e591464-9120-451f-96f9-419de6476743;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2e591464-9120-451f-96f9-419de6476743;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:04:03.956Z] : 
+[debug] [2023-02-10T05:04:03.957Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:04:03.958Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T05:04:03.958Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T05:04:03.959Z] : Platform:     win32
+[debug] [2023-02-10T05:04:03.959Z] : Node Version: v18.12.0
+[debug] [2023-02-10T05:04:03.960Z] : Time:         Fri Feb 10 2023 10:34:03 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T05:04:03.960Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:04:03.960Z] : 
+[debug] [2023-02-10T05:04:04.656Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T05:04:04.656Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T05:04:04.668Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T05:04:05.906Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:04:04 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=7023bd95-0f7d-4a4f-96ef-890c66d5b543;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7023bd95-0f7d-4a4f-96ef-890c66d5b543;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:04:05.909Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T05:04:07.396Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:04:05 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=0963e4b0-6fd4-4b05-a95f-a4e55c0ecda0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0963e4b0-6fd4-4b05-a95f-a4e55c0ecda0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:04:07.680Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-10T05:04:09.066Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T05:04:32.802Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T05:04:32.805Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T05:04:40.663Z] : No basic functions to add
+[info] [2023-02-10T05:04:51.912Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T05:04:51.913Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T05:04:51.914Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T05:04:51.914Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[debug] [2023-02-10T05:10:12.628Z] : > refreshing access token <
+[debug] [2023-02-10T05:10:12.638Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-10T05:10:13.988Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:10:12 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=a711b6da0e6cbadb5e254290f114a026; Path=/","iamcsr=674ef4a3-5f79-437a-a226-96a61fc7298a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=674ef4a3-5f79-437a-a226-96a61fc7298a;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2023-02-10T05:12:44.016Z] : Shutting down server
+[info] [2023-02-10T05:12:44.026Z] : 
+[info] [2023-02-10T05:12:44.027Z] : √ Shutdown complete
+[debug] [2023-02-10T05:12:44.027Z] : NO ERRORS REGISTERED
+[debug] [2023-02-10T05:12:44.028Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-10T05:12:44.028Z] : TOTAL DURATION OF COMMAND EXEC : 519385
+[debug] [2023-02-10T05:12:44.037Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-10T05:12:46.870Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:12:45 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=662b7d42-d6df-4329-9108-264f6b9af01b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=662b7d42-d6df-4329-9108-264f6b9af01b;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=190BC58F4DC3114A72395DC8938F30C0; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-10T05:12:46.872Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-10T05:12:46.875Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-10T05:15:01.176Z] : 
+[debug] [2023-02-10T05:15:01.177Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:15:01.178Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T05:15:01.178Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T05:15:01.179Z] : Platform:     win32
+[debug] [2023-02-10T05:15:01.179Z] : Node Version: v18.12.0
+[debug] [2023-02-10T05:15:01.180Z] : Time:         Fri Feb 10 2023 10:45:01 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T05:15:01.180Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T05:15:01.180Z] : 
+[debug] [2023-02-10T05:15:01.824Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T05:15:01.825Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T05:15:01.836Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T05:15:03.176Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:15:01 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=524205cc-5753-4175-8291-db34016c875c;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=524205cc-5753-4175-8291-db34016c875c;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:15:03.179Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T05:15:04.219Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:15:02 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=54cbbb9a-1f5f-4623-a9ad-cc914ebca520;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=54cbbb9a-1f5f-4623-a9ad-cc914ebca520;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T05:15:04.364Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-10T05:15:04.452Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T05:15:08.033Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T05:15:08.036Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T05:15:09.362Z] : No basic functions to add
+[info] [2023-02-10T05:15:10.608Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-10T05:15:10.609Z] : [react-plugin]: 
+[info] [2023-02-10T05:15:10.609Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-10T05:15:10.609Z] : [react-plugin]: 
+[info] [2023-02-10T05:15:10.610Z] : [react-plugin]:   Local:            http://localhost:3001/app/
+[info] [2023-02-10T05:15:10.610Z] : [react-plugin]:   On Your Network:  http://192.168.129.212:3001/app/
+[info] [2023-02-10T05:15:10.610Z] : [react-plugin]: 
+[info] [2023-02-10T05:15:10.610Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-10T05:15:10.611Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-10T05:15:10.611Z] : [react-plugin]: 
+[info] [2023-02-10T05:38:12.676Z] : Shutting down server
+[info] [2023-02-10T05:38:12.691Z] : 
+[info] [2023-02-10T05:38:12.693Z] : √ Shutdown complete
+[debug] [2023-02-10T05:38:12.693Z] : NO ERRORS REGISTERED
+[debug] [2023-02-10T05:38:12.694Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-10T05:38:12.694Z] : TOTAL DURATION OF COMMAND EXEC : 1390885
+[debug] [2023-02-10T05:38:12.706Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-10T05:38:16.447Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 05:38:15 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=1bf4a614-193a-452f-9d2a-54ce252958bb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1bf4a614-193a-452f-9d2a-54ce252958bb;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=C7CCBB361816AEF10AFEDB9FC6184B50; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-10T05:38:16.449Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-10T05:38:16.451Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-10T09:03:50.700Z] : 
+[debug] [2023-02-10T09:03:50.701Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:03:50.701Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T09:03:50.701Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T09:03:50.702Z] : Platform:     win32
+[debug] [2023-02-10T09:03:50.702Z] : Node Version: v18.12.0
+[debug] [2023-02-10T09:03:50.703Z] : Time:         Fri Feb 10 2023 14:33:50 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T09:03:50.703Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:03:50.703Z] : 
+[debug] [2023-02-10T09:03:51.484Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T09:03:51.485Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T09:03:51.500Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T09:03:53.398Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:03:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=1ac031d9-b054-4415-bffb-5f0f646e5a93;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1ac031d9-b054-4415-bffb-5f0f646e5a93;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:03:53.402Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T09:03:54.628Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:03:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=f45562ff-8ebb-4591-8f43-072f1db16f4e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f45562ff-8ebb-4591-8f43-072f1db16f4e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:03:54.780Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-10T09:03:57.760Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T09:04:59.836Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T09:04:59.839Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T09:05:17.192Z] : No basic functions to add
+[info] [2023-02-10T09:05:22.626Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-10T09:05:22.627Z] : [react-plugin]: 
+[info] [2023-02-10T09:05:22.628Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-10T09:05:22.628Z] : [react-plugin]: 
+[info] [2023-02-10T09:05:22.629Z] : [react-plugin]:   Local:            http://localhost:3001/app/
+[info] [2023-02-10T09:05:22.629Z] : [react-plugin]:   On Your Network:  http://192.168.129.212:3001/app/
+[info] [2023-02-10T09:05:22.630Z] : [react-plugin]: 
+[info] [2023-02-10T09:05:22.630Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-10T09:05:22.630Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-10T09:05:22.631Z] : [react-plugin]: 
+[info] [2023-02-10T09:06:45.700Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:07:08.067Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:07:08.067Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:07:08.068Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:07:08.068Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:07:08.131Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:07:08.575Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:07:08.575Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:07:08.575Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:07:08.575Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:12:23.905Z] : Shutting down server
+[info] [2023-02-10T09:12:23.916Z] : 
+[info] [2023-02-10T09:12:23.917Z] : √ Shutdown complete
+[debug] [2023-02-10T09:12:23.918Z] : NO ERRORS REGISTERED
+[debug] [2023-02-10T09:12:23.918Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-10T09:12:23.918Z] : TOTAL DURATION OF COMMAND EXEC : 512527
+[debug] [2023-02-10T09:12:23.935Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-10T09:12:31.755Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:12:31 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=56120353-6e91-4e9e-915d-6133907ccb5e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=56120353-6e91-4e9e-915d-6133907ccb5e;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=9BD4CD2942ECF193BDB48AA64CD72271; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-10T09:12:31.757Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-10T09:12:31.759Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-10T09:12:34.877Z] : 
+[debug] [2023-02-10T09:12:34.878Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:12:34.879Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T09:12:34.879Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T09:12:34.879Z] : Platform:     win32
+[debug] [2023-02-10T09:12:34.880Z] : Node Version: v18.12.0
+[debug] [2023-02-10T09:12:34.881Z] : Time:         Fri Feb 10 2023 14:42:34 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T09:12:34.881Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T09:12:34.881Z] : 
+[debug] [2023-02-10T09:12:35.618Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T09:12:35.619Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T09:12:35.630Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T09:12:36.890Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:12:36 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=ba2a1b22f2a5e14b0d2647f7e38884fc; Path=/","ZD_CSRF_TOKEN=405ed01f-520b-4db9-96a6-f1dcfcd55427;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=405ed01f-520b-4db9-96a6-f1dcfcd55427;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:12:36.897Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T09:12:38.278Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 09:12:37 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=21fed02c-a016-49d8-a9a9-ae1ed7374964;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=21fed02c-a016-49d8-a9a9-ae1ed7374964;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T09:12:38.455Z] : http port : '3000' is not available. Hence port '3001' will be used instead.
+[debug] [2023-02-10T09:12:38.545Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T09:12:40.708Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T09:12:40.711Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T09:12:41.998Z] : No basic functions to add
+[info] [2023-02-10T09:12:43.521Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-10T09:12:43.521Z] : [react-plugin]: 
+[info] [2023-02-10T09:12:43.521Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-10T09:12:43.521Z] : [react-plugin]: 
+[info] [2023-02-10T09:12:43.522Z] : [react-plugin]:   Local:            http://localhost:3001/app/
+[info] [2023-02-10T09:12:43.522Z] : [react-plugin]:   On Your Network:  http://192.168.129.212:3001/app/
+[info] [2023-02-10T09:12:43.523Z] : [react-plugin]: 
+[info] [2023-02-10T09:12:43.523Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-10T09:12:43.523Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-10T09:12:43.524Z] : [react-plugin]: 
+[info] [2023-02-10T09:24:26.503Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:27.989Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:24:27.990Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "}" (38:25)
+  36 |
+  37 |   return (
+> 38 |     <Box width={'30%', pl:"50"}>
+     |                          ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T09:24:29.836Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:30.067Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:24:30.068Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "}" (38:25)
+  36 |
+  37 |   return (
+> 38 |     <Box width={'30%', pl:20}>
+     |                          ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T09:24:34.639Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:34.804Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:24:34.805Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token, expected "}" (38:22)
+  36 |
+  37 |   return (
+> 38 |     <Box width={'30%' pl:20}>
+     |                       ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T09:24:38.298Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:38.820Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:24:38.820Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:24:38.820Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:24:38.821Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:24:42.155Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:42.379Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:24:42.380Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token (38:22)
+  36 |
+  37 |   return (
+> 38 |     <Box width={'30%'}, sx>
+     |                       ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T09:24:44.978Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:45.413Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:24:45.414Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:24:45.414Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:24:45.414Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:24:46.249Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:46.439Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:24:46.439Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:24:46.440Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:24:46.440Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:24:48.265Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:48.426Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:24:48.427Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: JSX attributes must only be assigned a non-empty expression. (38:26)
+  36 |
+  37 |   return (
+> 38 |     <Box width={'30%'} sx={}>
+     |                           ^
+  39 |       <Stack>
+  40 |         <TextField
+  41 |           id="outlined-controlled"
+[info] [2023-02-10T09:24:49.964Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:50.390Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:24:50.390Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:24:50.390Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:24:50.391Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:24:53.616Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:24:53.925Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:24:53.925Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:24:53.925Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:24:53.925Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:24:59.938Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:25:00.259Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:25:00.260Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:25:00.260Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:25:00.260Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:25:13.018Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:25:13.472Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:25:13.472Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:25:13.473Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:25:13.473Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:25:22.219Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:25:22.381Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:25:22.382Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: JSX attributes must only be assigned a non-empty expression. (41:11)
+  39 |       <Stack>
+  40 |         <TextField
+> 41 |         sx={}
+     |            ^
+  42 |           id="outlined-controlled"
+  43 |           label="email"
+  44 |           value={email}
+[info] [2023-02-10T09:25:26.069Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:25:26.485Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:25:26.485Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 41:14:  'm' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T09:25:29.641Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:25:29.917Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:25:29.918Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:25:29.918Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:25:29.918Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:26:08.089Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:26:08.610Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:26:08.610Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:26:08.610Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:26:08.610Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:26:22.654Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:26:22.969Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:26:22.969Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:26:22.970Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:26:22.970Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:26:26.570Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:26:26.911Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:26:26.911Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:26:26.912Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:26:26.912Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:29:58.372Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:29:59.119Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:29:59.119Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 58:87:  Parsing error: Unterminated regular expression. (58:87)
+[info] [2023-02-10T09:29:59.168Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:29:59.388Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:29:59.389Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unterminated regular expression. (58:87)
+  56 |         />
+  57 |         <Button onClick={signUp} variant="text">Register</Button>
+> 58 |         <a href="http://localhost:3000/app/"  style={{ textDecoration: 'none' }>Login</a>  
+     |                                                                                        ^
+  59 |
+  60 |
+  61 |
+[info] [2023-02-10T09:30:06.438Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:06.908Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:06.909Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:06.909Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:06.909Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:14.604Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:14.970Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:14.971Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:14.971Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:14.972Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:17.160Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:17.443Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:17.443Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:17.444Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:17.444Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:22.152Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:22.456Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:30:22.457Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 59:42:  'fon' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T09:30:24.968Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:25.297Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:30:25.298Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 59:42:  'fontSize30' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+[info] [2023-02-10T09:30:26.792Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:26.977Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:30:26.977Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token (59:51)
+  57 |         <Button onClick={signUp} variant="text">Register</Button>
+  58 |         <a href="http://localhost:3000/app/"  
+> 59 |         style={{ textDecoration: 'none', fontSize: }}>
+     |                                                    ^
+  60 |           Login</a>  
+  61 |
+  62 |
+[info] [2023-02-10T09:30:28.129Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:28.450Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:28.450Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:28.450Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:28.450Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:33.704Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:33.959Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:33.959Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:33.959Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:33.959Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:51.901Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:52.070Z] : [react-plugin]: Failed to compile.
+
+[info] [2023-02-10T09:30:52.071Z] : [react-plugin]: SyntaxError: D:\zw\zwapp\react-app\src\components\Login.jsx: Unexpected token (59:67)
+  57 |         <Button onClick={signUp} variant="text">Register</Button>
+  58 |         <a href="http://localhost:3000/app/"  
+> 59 |         style={{ textDecoration: 'none', fontSize:20, paddingLeft: }}>
+     |                                                                    ^
+  60 |           Login</a>  
+  61 |
+  62 |
+[info] [2023-02-10T09:30:53.642Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:54.048Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:54.049Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:54.049Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:54.049Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:30:58.444Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:30:58.888Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:30:58.889Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:30:58.889Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:30:58.889Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:31:04.005Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:31:04.325Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:31:04.326Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:31:04.326Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:31:04.326Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T09:31:16.638Z] : [react-plugin]: Compiling...
+[info] [2023-02-10T09:31:17.043Z] : [react-plugin]: Compiled with warnings.
+
+[info] [2023-02-10T09:31:17.043Z] : [react-plugin]: [eslint] 
+src\components\Login.jsx
+  Line 33:12:  'returnLoginrouter' is defined but never used  no-unused-vars
+[info] [2023-02-10T09:31:17.044Z] : [react-plugin]: 
+Search for the keywords to learn more about each warning.
+[info] [2023-02-10T09:31:17.044Z] : [react-plugin]: To ignore, add // eslint-disable-next-line to the line before.
+
+[info] [2023-02-10T10:24:00.215Z] : Shutting down server
+[info] [2023-02-10T10:24:00.316Z] : 
+[info] [2023-02-10T10:24:00.318Z] : √ Shutdown complete
+[debug] [2023-02-10T10:24:00.320Z] : NO ERRORS REGISTERED
+[debug] [2023-02-10T10:24:00.321Z] : EXEC ENDED with event: serve, message: success
+[debug] [2023-02-10T10:24:00.321Z] : TOTAL DURATION OF COMMAND EXEC : 4284718
+[debug] [2023-02-10T10:24:00.361Z] : > refreshing access token <
+[debug] [2023-02-10T10:24:00.364Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.com/oauth/v2/token 
+<request body omitted>
+
+[debug] [2023-02-10T10:24:01.500Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 10:24:00 GMT","content-type":"application/json;charset=UTF-8","content-length":"2728","connection":"close","set-cookie":["b266a5bf57=57c7a14afabcac9a0b9dfc64b3542b70; Path=/","iamcsr=7b1538e6-18f1-4f99-b633-9ecc6232bbdc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=7b1538e6-18f1-4f99-b633-9ecc6232bbdc;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","pragma":"no-cache","x-xss-protection":"1","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T10:24:01.514Z] : >>>> HTTP REQUEST : POST https://api.catalyst.zoho.com/baas/v1/cli/logs 
+<request body omitted>
+
+[debug] [2023-02-10T10:24:05.650Z] : <<<< HTTP RESPONSE : 400
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 10:24:04 GMT","content-type":"application/json;charset=ISO-8859-1","content-length":"147","connection":"close","set-cookie":["46512fd555=63dd9cf89a6678b816d9580ec827ee61; Path=/","ZD_CSRF_TOKEN=cd65719d-ca14-47eb-8046-3b79d17ba1bd;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=cd65719d-ca14-47eb-8046-3b79d17ba1bd;path=/;SameSite=Strict;Secure;priority=high","JSESSIONID=9409260CD629393AB32B373196729242; Path=/; Secure; HttpOnly"],"x-content-type-options":"nosniff","x-xss-protection":"1","x-frame-options":"DENY"}
+
+[debug] [2023-02-10T10:24:05.652Z] : Response Body : {"status":"failure","data":{"error_code":"INPUT_SIZE_MORE_THAN_ALLOWED","message":"Please check if the size of the input is in the correct range"}}
+
+[debug] [2023-02-10T10:24:05.656Z] : Unable to send debug log to server: HTTP Error: 400, Please check if the size of the input is in the correct range
+[debug] [2023-02-10T10:33:52.737Z] : 
+[debug] [2023-02-10T10:33:52.738Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T10:33:52.739Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\Santhana Krishna\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2023-02-10T10:33:52.740Z] : CLI Version:  1.13.3
+[debug] [2023-02-10T10:33:52.740Z] : Platform:     win32
+[debug] [2023-02-10T10:33:52.740Z] : Node Version: v18.12.0
+[debug] [2023-02-10T10:33:52.741Z] : Time:         Fri Feb 10 2023 16:03:52 GMT+0530 (India Standard Time)
+[debug] [2023-02-10T10:33:52.742Z] : ----------------------------------------------------------------------
+[debug] [2023-02-10T10:33:52.742Z] : 
+[debug] [2023-02-10T10:33:53.496Z] : > authorizing via signed-in user option
+[debug] [2023-02-10T10:33:53.497Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL"]
+[debug] [2023-02-10T10:33:53.510Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818 
+
+[debug] [2023-02-10T10:33:54.805Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 10:33:54 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=bbdfb771565421abbe10f7a180903d28; Path=/","ZD_CSRF_TOKEN=0ceea507-818e-44af-85d9-3668aea37f5e;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0ceea507-818e-44af-85d9-3668aea37f5e;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T10:33:54.809Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.com/baas/v1/project/50000000004818/environment 
+
+[debug] [2023-02-10T10:33:55.965Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Fri, 10 Feb 2023 10:33:55 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"close","set-cookie":["46512fd555=04d9a2d1e2e86744f9516a3e9f805f56; Path=/","ZD_CSRF_TOKEN=69fd4b62-fa87-4256-a87e-f3cb659950c5;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=69fd4b62-fa87-4256-a87e-f3cb659950c5;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","pragma":"no-cache","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2023-02-10T10:33:56.121Z] : http port : '3000' is not available. Hence port '3002' will be used instead.
+[debug] [2023-02-10T10:33:58.539Z] : http port : '3030' is not available. Hence port '3032' will be used instead.
+[info] [2023-02-10T10:35:03.629Z] : [react-plugin]: Starting the development server...
+
+[info] [2023-02-10T10:35:03.632Z] : i client[react-app]: Plugin : "zcatalyst-cli-plugin-react" is used for client serve
+[debug] [2023-02-10T10:35:20.857Z] : No basic functions to add
+[info] [2023-02-10T10:35:26.799Z] : [react-plugin]: Compiled successfully!
+[info] [2023-02-10T10:35:26.801Z] : [react-plugin]: 
+[info] [2023-02-10T10:35:26.801Z] : [react-plugin]: You can now view react-app in the browser.
+[info] [2023-02-10T10:35:26.801Z] : [react-plugin]: 
+[info] [2023-02-10T10:35:26.802Z] : [react-plugin]:   Local:            http://localhost:3002/app/
+[info] [2023-02-10T10:35:26.802Z] : [react-plugin]:   On Your Network:  http://192.168.129.212:3002/app/
+[info] [2023-02-10T10:35:26.802Z] : [react-plugin]: 
+[info] [2023-02-10T10:35:26.803Z] : [react-plugin]: Note that the development build is not optimized.
+[info] [2023-02-10T10:35:26.803Z] : [react-plugin]: To create a production build, use npm run build.
+[info] [2023-02-10T10:35:26.804Z] : [react-plugin]: 
